@@ -11,3 +11,18 @@ if (nota >= 11) {
 } else {
     console.log("Desaprobado");
 }
+
+
+function evaluarNota(nota) {
+    if (nota >= 11) {
+        return "Apronado";
+    } else {
+        return "Desaprobado";
+    }
+}
+
+console.log(evaluarNota(14));
+console.log(evaluarNota(8));
+
+console.log(evaluarNota(11));
+console.log(evaluarNota(10));
