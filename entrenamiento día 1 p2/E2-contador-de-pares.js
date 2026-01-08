@@ -9,5 +9,11 @@ for (let i = 0; i < numeros.length; i++) {
         conteo++;
     }
 }
-
+/** 
+ * En adelante cuando se hace una comparación, no usar
+ * ==
+ * En cambio usar un triple signo de igual
+ * ===
+ * Es más recomendable en JavaScript
+ */
 console.log("Hay ", conteo, " números pares");
